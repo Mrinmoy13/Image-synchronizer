@@ -41,7 +41,7 @@ const ImageComparisonTool: React.FC<ImageComparisonToolProps> = () => {
           body: formData,
           credentials: 'include',
           headers: {
-            'Content-Type': 'multipart/form-data',
+            'Accept': 'multipart/form-data'
           },
         });
 
